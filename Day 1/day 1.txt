@@ -10,3 +10,10 @@ Pandas have two main datatypes
 1. Series - this is Simply a one dimension array or list
 2. Data frame = Data frame is a 2-dimensional list or array. We can create multiple Series and then add them together to make a DataFrame
 (Check out the code file or Notebook attached for more details)
+
+
+Importing Data
+In order to import data to your notebook you need to use the command car_sales = pd.read_csv("car-sales.csv")
+where the car_sales is a variable where we are storing the imported data. then calling a function of pandas library {pd.read_csv} and then passing on the file path or file name inside it.
+You can use Tab to auto-complete the file name or path. You can either import it from any location of your PC or can just keep it in the project folder and then import it from there
+(Check out the code file or Notebook attached for more details)
