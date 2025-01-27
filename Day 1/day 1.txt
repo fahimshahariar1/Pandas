@@ -1,0 +1,7 @@
+Day 1 of learning Pandas
+
+  on Day 1 of learning Pandas we are going to learn about the absolute basic of Pandas
+
+  Pandas is a library that is used for data manipulation and analysis
+
+  On Day 1 we learn about the Data types of Pandas and how we can import and export data
