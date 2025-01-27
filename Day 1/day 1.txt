@@ -17,3 +17,12 @@ In order to import data to your notebook you need to use the command car_sales =
 where the car_sales is a variable where we are storing the imported data. then calling a function of pandas library {pd.read_csv} and then passing on the file path or file name inside it.
 You can use Tab to auto-complete the file name or path. You can either import it from any location of your PC or can just keep it in the project folder and then import it from there
 (Check out the code file or Notebook attached for more details)
+
+
+Exporting Data
+Now to export the dataframe you can use the following command car_sales.to_csv("exported.csv", index = False)
+we can also do .to_excel but csv is much better. This command would export the dataframe as the name is mentioned inside the string. and remember to put the index = False or the exported file will generate a random index numbers in the DataFrame
+(Check out the code file or Notebook attached for more details)
+
+
+That's all for Day 1
