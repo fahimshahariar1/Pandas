@@ -1,7 +1,12 @@
 Day 1 of learning Pandas
 
-  on Day 1 of learning Pandas we are going to learn about the absolute basic of Pandas
+  on Day 1 of learning Pandas, we are going to learn about the absolute basics of Pandas
 
   Pandas is a library that is used for data manipulation and analysis
 
-  On Day 1 we learn about the Data types of Pandas and how we can import and export data
+  On Day 1 we learned about the Data types of Pandas and how we can import and export data
+
+Pandas have two main datatypes
+1. Series - this is Simply a one dimension array or list
+2. Data frame = Data frame is a 2-dimensional list or array. We can create multiple Series and then add them together to make a DataFrame
+(Check out the code file or Notebook attached for more details)
