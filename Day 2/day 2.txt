@@ -1,0 +1,6 @@
+Day 2 of learning Pandas
+
+  on day 2 we will learn how to import a file or data from a URL
+
+  For example the file we have used in Day 1 you can find the file in the Resources section of this repo.
+  In order to import that on to our notebook we can use the following commnad. 
