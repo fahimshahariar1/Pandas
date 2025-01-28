@@ -8,4 +8,14 @@ car_data = pd.read_csv("https://raw.githubusercontent.com/fahimshahariar1/Pandas
 
 You need to click on the raw tab and then copy the link and paste it inside the read_csv() function
 
+Describing Data.
+
+When we first get a data set we need to run some functions or attributes in order to learn about that data.
+The difference between an Attribute and a function is that an Attribute doesn't have ().
+
+Check out the notebook to get a better understanding.
+
+feel free to try out different attributes and functions from the Pandas official documentation 
+https://pandas.pydata.org/docs/
+
 
