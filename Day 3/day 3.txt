@@ -3,4 +3,17 @@ On day 3 of learning Pandas we will be learning about the different ways we can 
   We can use car_sales.head() function would return the first five rows of the dataset. Sometimes you'd be making changes to your dataset and can't really look at the whole data set at once. So, for those, we can use this function to evaluate our Data set.
   We can also Pass some value inside the function like 3,5 or 7 that would return that amount of Row from the data set
 
-Similarly if you want to look at the bottom few rows we can use the car_sales.tail() function and this would return the bottom 5 rows
+Similarly, if you want to look at the bottom few rows we can use the car_sales.tail() function and this would return the bottom 5 rows
+
+
+Next we will look into other 2 functions.
+1. loc = refers to the index 
+2. iloc = refers to the position
+we can use these functions to slice a dataset. car_sales.iloc[:3] this function means return all the rows upto position 3 and this would return that
+
+
+Now if you want to return a particular column we can use car_sales["name of the column"]
+
+we can also pass in some condition inside in order to return data accordingly.
+
+car_sales[car_sales["Make"] == "Toyota"] this command would only return cars thats make are toyota. we can simply use this conditioning for everything
