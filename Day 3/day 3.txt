@@ -1,0 +1,6 @@
+On day 3 of learning Pandas we will be learning about the different ways we can Select and View Data.
+
+  We can use car_sales.head() function would return the first five rows of the dataset. Sometimes you'd be making changes to your dataset and can't really look at the whole data set at once. So, for those, we can use this function to evaluate our Data set.
+  We can also Pass some value inside the function like 3,5 or 7 that would return that amount of Row from the data set
+
+Similarly if you want to look at the bottom few rows we can use the car_sales.tail() function and this would return the bottom 5 rows
