@@ -1,0 +1,5 @@
+On day 4 we are continuing the selecting and viewing part
+
+  if we want to check columns in a more comparative way we can use the following command
+  pd.crosstab(car_sales["Make"], car_sales["Doors"])
+here we are asking pandas to give us a comparative description of just the make and doors column from the dataset
