@@ -11,3 +11,6 @@ if we want to plot our dataset we can use the plot function. that will give us a
 car_sales["Odometer (KM)"].plot()
 
 we can also look into histogram of our dataset using car_sales["Odometer (KM)"].hist() command
+
+We can also convert a datatype of a column to int 
+car_sales["Price"] = car_sales["Price"].str.replace('[\$\,\.]', '', regex=True)
