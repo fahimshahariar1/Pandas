@@ -1,1 +1,18 @@
+On day 5 of learning Pandas, we will learn about how we can manipulate data.
 
+We have seen ways to select and view different types of data in a dataset now we will try to manipulate those according to our needs
+
+The first function that we will see today is the lower function that we can use to lowercase certain column using the following command 
+car_sales["Make"].str.lower()
+
+Next, we will see how to deal with missing values in pandas.
+You can find the missing value file in the resource folder
+
+Now suppose we want to fill in the missing values of the odometer column using the mean value of the odometer then we can use the following command
+car_sales_missing["Odometer"].fillna(car_sales_missing["Odometer"].mean())
+
+It will reassign it to the original missing values
+
+If we want to drop or remove all the values that are missing we can use the dropna function
+car_sales_missing.dropna(inplace = True)
+this inplace parameter automatically reassigns the new values to the original data set showing a cleaner dataset to work on
