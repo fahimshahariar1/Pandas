@@ -21,3 +21,9 @@ Check out the notebook for detailed work
 What if we want to create a column from the columns of the dataset? We can do that as well
 car_sales["Total Fuel (L)"] = car_sales["Odometer (KM)"] / 100 * car_sales["Fuel per 100KM"]
 if we create another column and use an equation we can easily achieve that
+
+Lastly, if you want to remove a column from the dataset, we can use the following command
+car_sales = car_sales.drop("Seats", axis = 1)
+remember axis = 1 is mandatory axis 1 means column and 0 means row, So 1 means we want to drop a column
+
+That's all for day 6
