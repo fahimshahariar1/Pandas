@@ -1,1 +1,8 @@
-Da
+On day 6 we continued the part of manipulating data
+
+We have seen multiple ways of viewing selecting and replacing data but what if we want to create or add another data into our dataset like another column
+Yes, we can do that as well. To add a column to our dataset we can use the following command
+car_sales["Seats"] = seat_column
+Check out the notebook for detailed work
+
+Now what 
