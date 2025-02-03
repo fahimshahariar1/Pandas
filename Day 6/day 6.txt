@@ -5,15 +5,19 @@ Yes, we can do that as well. To add a column to our dataset we can use the follo
 car_sales["Seats"] = seat_column
 Check out the notebook for detailed work
 
-Now what if you want to create a column from a python list?
+Now what if you want to create a column from a Python list?
 
 We can do that as well
 But here is an interesting catch
-if we create from a python list like this fuel_economy = [7.6, 8.9, 9.0, 8.5, 3.0, 7.9, 5.5]
-then you would notice that we are getting an error after running it. because we haven't provided all the values required according to the dataset. For example the dataset has 9 index and if we provide anything but less than that value this will cause an error.
+if we create from a Python list like this fuel_economy = [7.6, 8.9, 9.0, 8.5, 3.0, 7.9, 5.5]
+then you will notice that we are getting an error after running it. because we haven't provided all the values required according to the dataset. For example, the dataset has 9 index and if we provide anything but less than that value this will cause an error.
 
 Remember this wasn't the case when we created it from series. So  the final command would be
 #Column from a Python List
 fuel_economy = [7.6, 8.9, 9.0, 8.5, 3.0, 7.9, 5.5, 6.7, 9.9, 10]
 car_sales["Fuel per 100KM"] = fuel_economy
 Check out the notebook for detailed work
+
+What if we want to create a column from the columns of the dataset? We can do that as well
+car_sales["Total Fuel (L)"] = car_sales["Odometer (KM)"] / 100 * car_sales["Fuel per 100KM"]
+if we create another column and use an equation we can easily achieve that
