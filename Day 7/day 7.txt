@@ -1,0 +1,6 @@
+This would be the last part in the Manipulating Data section.
+
+  The first thing that we are going to see today if we want to shuffle the order of the dataset
+  car_sales.sample(frac=0.5)
+  this command means that take a sample of the car_sales dataset and shuffle it. The frac parameter means using a fraction of the datset. frac = 1 would mean using the whole dataset and here 0.5 means using half of that dataset.
+  Don't forget to reassign the new shuffled dataset or it will be lost
