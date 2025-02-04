@@ -23,3 +23,5 @@ then x / 1.6 means Odometer KM divided by 1.6
 Because 1 mile is = 1.6 KM
 
 Check out the notebook to get more details
+
+and that wraps up our Pandas Section. Nex we will move to numpy
