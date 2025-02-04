@@ -4,3 +4,7 @@ This would be the last part in the Manipulating Data section.
   car_sales.sample(frac=0.5)
   this command means that take a sample of the car_sales dataset and shuffle it. The frac parameter means using a fraction of the datset. frac = 1 would mean using the whole dataset and here 0.5 means using half of that dataset.
   Don't forget to reassign the new shuffled dataset or it will be lost
+
+What if you want to reset a shuffled list. We can do that aswell using
+car_sales_shuffled.reset_index(inplace = True, drop = True) this command.
+Here the reset index function resets the dataset according to their indexes and the parameter inplace means reassigning it and drop here means not to add any additional indexes 
