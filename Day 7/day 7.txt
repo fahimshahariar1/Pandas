@@ -1,10 +1,25 @@
-This would be the last part in the Manipulating Data section.
+This would be the last part of the Manipulating Data section.
 
-  The first thing that we are going to see today if we want to shuffle the order of the dataset
+  The first thing that we are going to see today is if we want to shuffle the order of the dataset
   car_sales.sample(frac=0.5)
-  this command means that take a sample of the car_sales dataset and shuffle it. The frac parameter means using a fraction of the datset. frac = 1 would mean using the whole dataset and here 0.5 means using half of that dataset.
+  This command means taking a sample of the car_sales dataset and shuffling it. The frac parameter means using a fraction of the dataset. frac = 1 would mean using the whole dataset and here 0.5 means using half of that dataset.
   Don't forget to reassign the new shuffled dataset or it will be lost
 
-What if you want to reset a shuffled list. We can do that aswell using
+What if you want to reset a shuffled list? We can do that as well using
 car_sales_shuffled.reset_index(inplace = True, drop = True) this command.
-Here the reset index function resets the dataset according to their indexes and the parameter inplace means reassigning it and drop here means not to add any additional indexes 
+Here the reset index function resets the dataset according to their indexes and the parameter in place means reassigning it and drop here means not adding any additional indexes 
+
+The last thing we will learn is how we can apply custom functions to our dataset.
+And to do that we can use the following command
+Suppose we want to convert our Odometer KM column to be in miles so we would use the apply() function
+car_sales["Odometer (KM)"] = car_sales["Odometer (KM)"].apply(lambda x : x / 1.6)
+
+here we are applying lambda x: x/ 1.6 means applying this function or equation over the odometer KM column
+
+lambda tells pandas that we are going to use a custom function
+x here is the odometer Km
+: means equal to
+then x / 1.6 means Odometer KM divided by 1.6 
+Because 1 mile is = 1.6 KM
+
+Check out the notebook to get more details
